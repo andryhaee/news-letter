@@ -11,7 +11,7 @@
 
 **Figma**
 
-* [Ссылка на проект news-letter](https://andryhaee.github.io/)
+* [Ссылка на проект news-letter](https://andryhaee.github.io/news-letter/)
 
 **Инструменты**
 
