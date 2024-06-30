@@ -1,0 +1,351 @@
+.main {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-logo {
+  max-width: 224px;
+  margin: 60px 0 40px;
+}
+
+.brand-baner {
+  width: 580px;
+  height: 335px;
+  background-image: url(../../images/Банер_desktop_2_1.png);
+}
+
+.brand-title {
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.button {
+  width: 393px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.pre-title {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+  margin: 110px 0 10px;
+}
+
+.achievement-title {
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 55px;
+  margin: 0;
+}
+
+.achievement-baner {
+  width: 580px;
+  height: 260px;
+  background-image: url(../../images/Банер_desktop_2_2.jpg);
+  margin: 10px 0 20px;
+}
+
+.chord-title {
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 55px;
+  margin: 0 0 10px;
+}
+
+.cards {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin: 40px 0 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-height: 413px;
+}
+
+.card-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card-title {
+  font-size: 11px;
+  line-height: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin: 22px 0 1px;
+  font-weight: 500;
+}
+
+.card-subtitle {
+  font-size: 24px;
+  line-height: 34px;
+  margin: 5px 0 3px;
+}
+
+.card-ml {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.price {
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.price-old {
+  position: relative;
+  display: inline-block;
+  padding: 0 5px;
+  color: #B3B3B3;
+  margin-left: 10px;
+}
+
+.cross-out {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+  background-color: #B3B3B3;
+}
+
+.card-position {
+  align-items: flex-start;
+}
+
+.card-button {
+  color: #000;
+  font-size: 11px;
+  line-height: 11px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.promo {
+  width: 100%;
+  background-color: #FFE9DA;
+  margin-bottom: 95px;
+}
+
+.promo-subheader {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 1.4px;
+  margin: 30px 0 0;
+}
+
+.promo-title {
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+
+.promo-subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 332px;
+  margin: 4px 0 15px;
+}
+
+.promo-button {
+  text-transform: uppercase;
+  width: 280px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  margin: 0;
+  border: 0;
+}
+
+.promo-comment {
+  font-size: 11px;
+  line-height: 15px;
+  margin: 18px 0 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px){
+  .main {
+    max-width: 320px;
+  }
+
+  .brand-logo {
+    max-width: 183px;
+    margin: 40px 0 20px;
+  }
+
+  .brand-baner {
+    width: 320px;
+    height: 347px;
+    background-image: url(../../images/Банер_mobile_1_1.jpg);
+  }
+
+  .brand-title {
+    font-size: 30px;
+    line-height: 39px;
+    margin: 20px 0 10px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    line-height: 22.4px;
+    max-width: 276px;
+    padding: 0;
+  }
+
+  .button {
+    width: 280px;
+    height: 50px;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 4px;
+  }
+
+  .pre-title {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 66px 0 5px;
+  }
+
+  .achievement-title {
+    font-size: 25px;
+    line-height: 33px;
+    padding: 0 55px;
+  }
+
+  .achievement-baner {
+    width: 280px;
+    height: 210px;
+    background-image: url(../../images/Банер_mobile_1_2.jpg);
+    margin: 6px 0 14px;
+  }
+
+  .chord-title {
+    font-size: 25px;
+    line-height: 32.5px;
+    padding: 0 30px;
+    margin: 0 0 13px;
+  }
+
+  .cards {
+    margin: 28px 0 39px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 200px;
+  }
+
+  .card-photo {
+    height: 200px;
+  }
+
+  .card-conteiner {
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .card-title {
+    font-size: 10px;
+    line-height: 15px;
+    margin: 6px 0 0;
+  }
+
+  .card-subtitle {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+  }
+  
+  .card-ml {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .price {
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .price-old {
+    margin-left: 15px;
+  }
+
+  .cross-out {
+    position: absolute;
+    right: 0;
+    top: 12px;
+  }
+
+  .promo {
+    margin-bottom: 70px;
+  }
+
+  .promo-title {
+    font-size: 45px;
+    line-height: 54px;
+  }
+
+  .promo-subtitle {
+    max-width: 280px;
+    margin: 5px 0 25px;
+    padding: 0 35px;
+  }
+
+  .promo-comment {
+    margin: 15px 0 20px;
+  }
+}

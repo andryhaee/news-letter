@@ -1,0 +1,132 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  width: 100%;
+  max-width: 580px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  margin-top: 54px;
+}
+
+.footer-app {
+  display: flex;
+  gap: 32px;
+  margin-top: 50px;
+}
+
+.footer-sap {
+  display: flex;
+  flex-direction: column;
+  margin: 31px 0 48px;
+}
+
+.separator {
+  display: none;
+}
+
+.footer-mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.sap-position {
+  text-align: end;
+}
+
+.sap-number {
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.sap-sap {
+  font-size: 10px;
+  line-height: 15px;
+  color: #fff;
+  margin: 7px 0 48px;
+}
+
+.sap-user {
+  font-size: 10px;
+  line-height: 15px;
+  color: #fff;
+  margin: 35px 0 5px;
+}
+
+.sap-sub {
+  font-size: 10px;
+  line-height: 15px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px){
+  
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social {
+    margin-top: 35px;
+  }
+
+  .footer-app {
+    gap: 32px;
+    margin-top: 20px;
+  }
+
+  .app-stor {
+    width: 99px;
+  }
+  
+  .app-play {
+    width: 115px;
+  }
+
+  .footer-sap {
+    width: 100%;
+    margin: 12px 0 15px;
+    text-align: center;
+  }
+
+  .separator {
+    display: block;
+    background-color: #F7F7F7;
+    opacity: 0.1;
+    width: 100%;
+    height: 1px;
+    margin-top: 28px;
+  }
+
+  .footer-sap:first-of-type {
+    flex-direction: column-reverse;
+  }
+
+  .sap-sap {
+    opacity: 0.6;
+    margin: 7px 0 8px;
+  }
+
+  .sap-position {
+    text-align: center;
+  }
+
+  .sap-user {
+    margin: 0 0 5px;
+  }
+
+  .sap-sub{
+    margin-bottom: 36px;
+  }
+}

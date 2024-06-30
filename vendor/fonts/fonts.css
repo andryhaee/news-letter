@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Helvetica-Light.woff2") format("woff2")
+       url("./Helvetica-Light.woff") format("woff"),;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Helvetica.woff2") format("woff2"),
+       url("./Helvetica.woff") format("woff");
+}
